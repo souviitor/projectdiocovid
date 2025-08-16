@@ -2,6 +2,11 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import numpy as np
+
+if not hasattr(np, "bool8"):
+    np.bool8 = np.bool_
+
 
 #streamlit run codigoBase.py
 
